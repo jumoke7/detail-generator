@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), violet);
+}
+.main {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+}
+input {
+  width: 300px;
+  height: 30px;
+  outline: none;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid rgb(238, 179, 238);
+}
+input:hover {
+  border-color: 1px solid rgb(247, 10, 247);
+}
+button {
+  width: 300px;
+  height: 30px;
+  background-color: violet;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
